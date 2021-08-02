@@ -7,7 +7,7 @@ public class Main {
 		Logger[] loggers = {new SmsLogger(), new EmailLogger(), new FileLogger()};
 		
 		CustomerManager customerManager = new CustomerManager(loggers);
-		//hacked by talha
+		
 		Customer customer = new Customer(1,"Nisa","Balci");
 		
 		customerManager.add(customer);
